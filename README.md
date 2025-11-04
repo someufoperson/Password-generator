@@ -1,3 +1,3 @@
 # 🔑 CLI-generation password
-_____________
+This miniature project is an assistant for me. I often have tasks that require generating passwords based on certain parameters, such as password length and the use of additional characters. I decided to publish this project solely for the purpose of transferring it to other workstations. All the best!
 ![PythonVersion](https://img.shields.io/badge/Python-%3E%3D3.9-blue)
