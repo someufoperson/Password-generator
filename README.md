@@ -22,3 +22,9 @@ git clone https://github.com/someufoperson/Password-generator/tree/main
 ```
 python generation-password.py
 ```
+
+### ⚙️ Additional parameters
+
+| Parameter | Description |
+|-----------|-------------|
+|--length 16|This parameter specifies the length of the password to be generated|
