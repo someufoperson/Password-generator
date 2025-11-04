@@ -28,8 +28,24 @@ python generation-password.py
 | Parameter | Description |
 |-----------|-------------|
 |--length 16|Specifies the length of the password to be generated (default is 16 characters)|
-|--use-symbols|Indicates the need to use additional characters|
+|--symbols|Indicates the need to use additional characters|
 
 Additional characters: !@#$%^&*()-_=+[]{}<>?,./:;
 
-## Use from terminal
+## 💻 Use from terminal
+
+If you need to quickly run a script directly from the terminal with specified parameters, then these instructions are for you.
+
+1. Open PowerShell in the folder where `pyproject.toml` is located.
+2. Install the package (without a virtual machine):
+``` Python
+py -m pip install --user .
+```
+3. All that remains is to add the folder with scripts to PATH on Windows so that the gen_pass command is available from any terminal.
+```
+setx PATH "%PATH%;%USERPROFILE%\AppData\Roaming\Python\Python313\Scripts"
+```
+4. Try this shit
+```
+gen_pass --length 25 --symbols
+```
