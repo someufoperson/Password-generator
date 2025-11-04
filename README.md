@@ -23,8 +23,13 @@ git clone https://github.com/someufoperson/Password-generator/tree/main
 python generation-password.py
 ```
 
-### ⚙️ Additional parameters
+### Additional parameters
 
 | Parameter | Description |
 |-----------|-------------|
-|--length 16|This parameter specifies the length of the password to be generated|
+|--length 16|Specifies the length of the password to be generated (default is 16 characters)|
+|--use-symbols|Indicates the need to use additional characters|
+
+Additional characters: !@#$%^&*()-_=+[]{}<>?,./:;
+
+## Use from terminal
