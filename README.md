@@ -7,7 +7,7 @@
     <img width="96" height="96" src="https://img.icons8.com/liquid-glass/96/password.png" alt="password"/>
 </div>
 
-A miniature helper for generating passwords. The standard Python library `secrets` is used instead of `random` to ensure more reliable generation, although it seems like it doesn't matter anyway🙈
+A miniature helper for generating passwords. The standard Python library `secrets` is used instead of `random` to ensure more reliable generation, although it seems like it doesn't matter anyway🙈 After generation, the password is automatically copied to the clipboard and you can quickly use it
 
 ## 🚀 Getting Started
 
