@@ -52,5 +52,5 @@ gen_pass --length 25 --symbols
 
 ## ToDo
 
-✅ CLI-generator password
-🔳 Local password storage in encrypted form
+- ✅ CLI-generator password
+- 🔳 Local password storage in encrypted form
