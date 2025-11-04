@@ -13,7 +13,7 @@ def gen_password(length: int = 16, use_symbols: bool = True) -> str:
         alphabet += "!@#$%^&*()-_=+[]{}<>?,./:;"
     return "".join(secrets.choice(alphabet) for _ in range(length))
 
-if __name__ == "__main__":
+def main():
     description = "Password generation utils from terminal. After use utils\
         new password copy to clipboard. THIS UTILS NOT SAVE YOUR PASSWORD, \
         JUST GENERATION!"
@@ -27,3 +27,6 @@ if __name__ == "__main__":
     
     print(f"New password: {password}\nPassword copy to clipboard")
     pyperclip.copy(password)
+
+if __name__ == "__main__":
+    main()

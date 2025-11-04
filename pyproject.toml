@@ -11,4 +11,4 @@ requires-python = ">=3.9"
 authors = [{name = "someufoperson"}]
 
 [project.scripts]
-generation_password = "generation_password.cli:main"
+gen_pass = "generation_password:main"
