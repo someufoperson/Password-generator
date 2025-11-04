@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generation_password"
+version = "1.0"
+description = "Simple CLI-generation password"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "someufoperson"}]
+
+[project.scripts]
+generation_password = "generation_password.cli:main"
