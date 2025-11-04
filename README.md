@@ -8,3 +8,13 @@
 </div>
 
 This miniature project is an assistant for me. I often have tasks that require generating passwords based on certain parameters, such as password length and the use of additional characters.
+
+## 🚀 Getting Started
+
+### Requirements
+
+- `Python 3.9>=`
+
+```
+git clone https://github.com/someufoperson/Password-generator/tree/main
+```
