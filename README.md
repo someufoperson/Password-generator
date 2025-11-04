@@ -36,7 +36,7 @@ Additional characters: !@#$%^&*()-_=+[]{}<>?,./:;
 
 If you need to quickly run a script directly from the terminal with specified parameters, then these instructions are for you.
 
-1. Open PowerShell in the folder where `pyproject.toml` is located.
+1. Open terminal in the folder where `pyproject.toml` is located.
 2. Install the package (without a virtual machine):
 ``` Python
 py -m pip install --user .
@@ -49,3 +49,8 @@ setx PATH "%PATH%;%USERPROFILE%\AppData\Roaming\Python\Python313\Scripts"
 ```
 gen_pass --length 25 --symbols
 ```
+
+## ToDo
+
+✅ CLI-generator password
+🔳 Local password storage in encrypted form
