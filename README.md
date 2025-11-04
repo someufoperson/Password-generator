@@ -1,1 +1,1 @@
-#:key: CLI-generation password
+:key: CLI-generation password
