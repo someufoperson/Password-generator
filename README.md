@@ -13,8 +13,12 @@ This miniature project is an assistant for me. I often have tasks that require g
 
 ### Requirements
 
-- `Python 3.9>=`
+- `Python >=3.9`
+
+```cmd
+git clone https://github.com/someufoperson/Password-generator/tree/main
+```
 
 ```
-git clone https://github.com/someufoperson/Password-generator/tree/main
+python generation-password.py
 ```
