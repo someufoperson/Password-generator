@@ -7,7 +7,7 @@
     <img width="96" height="96" src="https://img.icons8.com/liquid-glass/96/password.png" alt="password"/>
 </div>
 
-This miniature project is an assistant for me. I often have tasks that require generating passwords based on certain parameters, such as password length and the use of additional characters.
+A miniature helper for generating passwords. The standard Python library `secrets` is used instead of `random` to ensure more reliable generation, although it seems like it doesn't matter anyway🙈
 
 ## 🚀 Getting Started
 
