@@ -30,7 +30,7 @@ python generation-password.py
 |--length 16|Specifies the length of the password to be generated (default is 16 characters)|
 |--symbols|Indicates the need to use additional characters|
 
-Additional characters: !@#$%^&*()-_=+[]{}<>?,./:;
+Additional characters `!@#$%^&*()-_=+[]{}<>?,./:;`
 
 ## 💻 Use from terminal
 
